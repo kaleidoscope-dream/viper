@@ -1,33 +1,280 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="tsArt.css">
+<head>
+  <link rel="stylesheet" type="text/css" href="testviper.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!DOCTYPE html>
+<html>
+<head>
 <style>
-    <!-- <style>
-    h1 {color: #FFFFFF}
-    }
+.button {
+    background-color: #ea80fc;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
 
-    h2{
-        color: #000000;
-      }
-
-  }
-</style> -->
+.button:hover {
+    background-color: #e040fb;
+}
+</style>
 </head>
-
-
 <body>
-  <h1 style="font-family:courier;" class = "rainbow">@iivoodoodlesii</h1>
-  <h1 style="font-family:courier;" class = "rainbow">I AM AN ARTIST!!!</h1>
+
+
+<button class="button"><a href="file:///C:/Users/Girls%20Who%20Code/Desktop/testviper.html"><h1 style="font-family:courier;" class = "rainbow">Home</h1></a>
+</button>
 
 </body>
 </html>
 
-<a href="https://www.instagram.com/iivoodoodlesii/"><img scr="can.jpg" alt"can"width= "200" height="150"></a></img>
 
-<a href="https://twitter.com/iivoodoodlesii"><img src=""width="200" height="150"></a>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.dropbtn {
+    background-color: #ea80fc;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #e040fb;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #e040fb;}
+</style>
+</head>
+<body>
+<center>
+
+  <body style="background-image:url('http://wallpapercave.com/wp/lUmDkBf.gif')">
 
 
+  <h1 style="font-family:courier;" class = "rainbow">@iivoodoodlesii</h1>
+<p><h2 style="font-family:courier;" class = "rainbow">Don't be shy. Look around. Buy something. ;)</h2></p>
+</cenetr>
+<div class="dropdown">
+  <button class="dropbtn"><h1 style="font-family:courier;" class = "rainbow">Art</h1></button>
+  <div class="dropdown-content">
+    <a href="https://www.instagram.com/iivoodoodlesii/"><h1 style="font-family:courier;" class = "rainbow">insta</h1></a>
+    <a href="https://twitter.com/iivoodoodlesii"><h1 style="font-family:courier;" class = "rainbow">twitter</h1></a>
+    <a href="file:///C:/Users/Girls%20Who%20Code/Desktop/prints.html"><h1 style="font-family:courier;" class = "rainbow">prints</h1></a>
+  </div>
+</div>
 
-    <h2><p style="font-family:courier;"> I do art. BUY MY STUFF!!! XD </p></h2>
-<img src="dg1.JPG" alt"can"width= "200" height="150"></a></img>
+</body>
+</html>
+
+
+<div>
+</div>
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #b388ff;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ffd740;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ffc400;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="ydg.jpg"width="300" height="500" style="width:100%">
+  <div class="text"><h1 style="font-family:courier;" class = "rainbow">wow.</h1></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="plt.jpg"width="300" height="500" style="width:100%">
+  <div class="text"><h1 style="font-family:courier;" class = "rainbow">an aesthetic</h1></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="8156D545-8E5A-46A4-8A96-D09EF0FF2B0D.jpg"width="300" height="600" style="width:100%">
+  <div class="text"><h1 style="font-family:courier;" class = "rainbow">Ooop.</h1></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="pdg.jpg"width="300" height="600" style="width:100%">
+  <div class="text"><h1 style="font-family:courier;" class = "rainbow">Ooop.</h1></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="blt.jpg"width="300" height="600" style="width:100%">
+  <div class="text"><h1 style="font-family:courier;" class = "rainbow">Ooop.</h1></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
